@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  add_2_calendar: ^3.0.1
+  add_2_calendar:
+    git:
+      url: https://github.com/Adfluence-Media/add_2_calendar.git
+      ref: master
   enough_icalendar: #^0.11.0
     git:
       url: https://github.com/Enough-Software/enough_icalendar.git
